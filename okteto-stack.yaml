@@ -4,7 +4,7 @@ services:
     build: .
     replicas: 1
     environment:
-      - REDIS_URI=redis://torrent:U6dL75O7CTYNqgkuzNwIWFyWcy6k709Q@redis-15526.c275.us-east-1-4.ec2.cloud.redislabs.com:15526 #change this REDIS_URI get it from redistogo.com
+      - REDIS_URI=redis://default:SLiLqL68ZgiftgBGVMqu@containers-us-west-33.railway.app:6695 #change this REDIS_URI get it from redistogo.com
       - PYTHON_ENV=prod
       - CACHE_EXPIRATION=180
     ports:
